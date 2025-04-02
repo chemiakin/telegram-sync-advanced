@@ -1,0 +1,23 @@
+{
+  "name": "telegram-sync-advanced",
+  "version": "1.0.0",
+  "description": "Obsidian plugin to sync Telegram messages, files, and chats.",
+  "main": "main.js",
+  "scripts": {
+    "build": "node esbuild.config.mjs"
+  },
+  "keywords": [],
+  "author": "chemiakin",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.12.2",
+    "@types/node-telegram-bot-api": "^0.64.8",
+    "esbuild": "^0.20.2",
+    "node-telegram-bot-api": "^0.66.0",
+    "obsidian": "^1.5.7",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "process": "^0.11.10"
+  }
+}

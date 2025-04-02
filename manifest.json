@@ -1,0 +1,9 @@
+{
+  "id": "telegram-sync-advanced",
+  "name": "Telegram Sync Advanced",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "Sync Telegram messages, files, and chats to Obsidian with advanced settings.",
+  "author": "chemiakin",
+  "isDesktopOnly": true
+}
