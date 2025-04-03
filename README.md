@@ -7,9 +7,25 @@ A plugin to sync Telegram messages, files, and chats with advanced settings.
 2. Configure your Telegram Bot Token in settings.
 
 ## Features
-- Sync messages from Telegram to notes.
-- Support for files and chat separation.
-- Customizable date, time, and reaction settings.
+- Limit the users from whom a note can be created (if empty, then notes are accepted from everyone)
+- The ability to add a bot to telegram chats
+- The breakdown of notes according to the following logic:
+    - Every new message is a new note
+    - All messages are sent in a daily note
+    - Messages from groups are sent in a daily or separate note
+ - Setting up reactions in response to a message
+- Reaction
+- Reply message
+- Only reaction to a message in chats
+- Formatting new notes
+- Add separators between messages
+    - Display the sender's ID/username
+- Display the day/date of the message
+- Save the files being sent
+    - Save sent files in chats
+
+![image](https://github.com/user-attachments/assets/63616a3a-b580-48db-93f0-8e288da7433d)
+
 
 
 
